@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "access to action list",
+    'name': "Access For Action List",
 
     'summary': """
  Manage your action list access rights by setting groups """,
@@ -10,7 +10,7 @@ You can manage your action list access rights by setting groups.
 The setting will not work on user Administrator and Odoobot.
     """,
 
-    'author': "qianxunman",
+    'author': "Qianxunman",
     'website': "https://www.cnblogs.com/qianxunman/",
 
     # Categories can be used to filter modules in modules listing
