@@ -1,4 +1,4 @@
-﻿## Action list access rights
+## Action list access rights
 This module aims to manage action list access rights
 
 ## Contacts
