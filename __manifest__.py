@@ -3,10 +3,11 @@
     'name': "access to action list",
 
     'summary': """
- Manage your access of action list by setting groups """,
+ Manage your action list access rights by setting groups """,
 
     'description': """
-You can get detail info from README.md
+You can manage your action list access rights by setting groups.
+The setting will not work on user Administrator and Odoobot.
     """,
 
     'author': "qianxunman",
@@ -16,7 +17,7 @@ You can get detail info from README.md
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'security',
-    'version': '1.1',
+    'version': '1.3',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
@@ -27,9 +28,10 @@ You can get detail info from README.md
     ],
 
     'images': ['static/description/show_apps.gif'],
-    'price': 9,
+    'price': 10,
     'currency': 'EUR',
     'license': 'OPL-1',
+    'support': 'qianxunman1@outlook.com',
 
 }
 
