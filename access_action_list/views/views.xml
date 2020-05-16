@@ -1,0 +1,27 @@
+<odoo>
+  <data>
+
+    <!-- res.groups inherit form view -->
+    <record id="res_groups_inherit" model="ir.ui.view">
+      <field name="name">res.groups.inherit.view.form</field>
+      <field name="model">res.groups</field>
+      <field name="inherit_id" ref="base.view_groups_form"/>
+      <field name="arch" type="xml">
+        <!-- Add your xpath here -->
+        <xpath expr="//notebook/page[7]" position="after">
+          <page string="Deny Window Action">
+            <field name="deny_action_window_ids"/>
+          </page>
+          <page string="Deny Server Action">
+            <field name="deny_action_server_ids"/>
+          </page>
+
+          <page string="Deny URL Action">
+            <field name="deny_action_url_ids"/>
+          </page>
+
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>
