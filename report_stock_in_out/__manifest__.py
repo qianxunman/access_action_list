@@ -28,7 +28,7 @@
         'views/views.xml',
     ],
     
-    # 'images': ['static/description/show_apps.gif'],
+    'images': ['static/description/show_apps.png'],
     'currency': 'EUR',
     'license': 'OPL-1',
     'support': 'qianxunman1@outlook.com',
