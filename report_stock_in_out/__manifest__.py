@@ -29,7 +29,7 @@
     ],
     
     'images': ['static/description/show_apps.png'],
-    'currency': 'EUR',
+    # 'currency': 'EUR',
     'license': 'OPL-1',
     'support': 'qianxunman1@outlook.com',
 
