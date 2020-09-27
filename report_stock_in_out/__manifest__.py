@@ -27,6 +27,11 @@
         'security/ir.model.access.csv',
         'views/views.xml',
     ],
+    
+    # 'images': ['static/description/show_apps.gif'],
+    'currency': 'EUR',
+    'license': 'OPL-1',
+    'support': 'qianxunman1@outlook.com',
 
 
 }
